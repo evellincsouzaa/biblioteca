@@ -1,0 +1,273 @@
+
+
+
+/* Adicione estilos para o cabeçalho */
+header {
+    background-color: #f2ecec; /* Cor verde */
+    padding: 21px;
+    color: rgb(0, 0, 0); /* Cor do texto */
+    text-align: center;
+   position: relative;
+   top: -29px;
+   width: 100%;
+   left: -17px;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+.header-buttons {
+    margin-top: 20px; /* Adicione espaço entre a descrição e os botões */
+}
+
+/* Adicione estilos para os botões no cabeçalho */
+.header-buttons .button-link {
+    
+    --hover-bg: #90e7ff;
+    --hover-text: rgb(78, 77, 77);
+    color: #090909;
+    margin-right: 70px;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    background: var(--bg);
+    transition: 0.2s;
+    position: relative;
+    left: -70px;
+}
+
+.header-buttons .button-link:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.16rem 0.25rem var(--bg);
+}
+
+.header-buttons .button-link:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5CBDC2;
+}
+
+li {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.button-link {
+   
+    --hover-bg: #90fdff;
+    --hover-text: #000;
+    color: #000000;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    background: var(--bg);
+    transition: 0.2s;
+    
+}
+
+.button-link:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.16rem 0.25rem var(--bg);
+}
+
+.button-link:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+.menu a {
+    position: relative;
+    left: 780px;
+    margin-right: 50px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    top: -40px;
+    overflow: hidden;
+}
+
+.menu a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.menu a:hover:after,
+.menu a:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.rolt {
+    display: flex;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    transition: top 0.3s ease;
+}
+
+.rolt a {
+    margin-right: 90px;
+    text-decoration: none;
+    color: rgb(116, 116, 224);
+    position: relative;
+    left: 300px;
+}
+
+.logo {
+    position: relative;
+    top: 0px;
+    left: 190px;
+    width: 190px; 
+    height: 170px;
+}
+
+
+.video-background {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Defina um índice Z para garantir que o vídeo esteja atrás do conteúdo */
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#fixed-rolt {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.oi {
+    position: relative;
+    top: -75px;
+    left: 1480px;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.footer-icons a img {
+    width: 30px; 
+    height: 30px;
+}
+.welcome-message {
+    position: absolute;
+    top: 82px;
+   left: 1082px;
+   color: white;
+   font-family: 'Inter';
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 15px;
+   text-decoration: none;
+   color: #000000;
+   overflow: hidden;
+   
+}
+
+.welcome-message  a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.welcome-message a:hover:after,
+.welcome-message  a:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Adicione um estilo ao link para torná-lo visualmente mais atraente */
+a.confirm-link {
+    color: #007bff; /* Cor do link */
+    text-decoration: underline; /* Adiciona sublinhado ao link */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Adicione um estilo ao link quando o mouse passa sobre ele */
+a.confirm-link:hover {
+    color: #0056b3; /* Cor do link ao passar o mouse */
+}
+
+/* Adicione um estilo ao link quando estiver focado (pode ser útil para acessibilidade) */
+a.confirm-link:focus {
+    outline: none; /* Remove a borda padrão de foco */
+    box-shadow: 0 0 2px 2px #007bff; /* Adiciona uma borda de foco personalizada */
+}

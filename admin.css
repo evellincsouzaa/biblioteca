@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('img/Background-admin.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.welcome-message {
+    color: rgb(238, 238, 238);
+    font-size: 24px;
+    margin-bottom: 20px;
+position:absolute;
+top:10px;
+left:555px;
+
+    
+}
+
+.menu {
+    background-color: rgba(174, 166, 166, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    position:absolute;
+    top: 280px;
+    left: 650px;
+}
+
+.table-show {
+    display: table;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgb(4, 238, 191)1, 251);
+}
+
+/* Adicione este estilo para o formulário fictício */
+form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adicione estilo para os campos do formulário, botões, etc. conforme necessário */

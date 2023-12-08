@@ -1,0 +1,17 @@
+{
+    "name": "aluno/gerenciadordebiblioteca",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Gerenciadordebiblioteca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "evellincsouzaa",
+            "email": "evellinsouza2806@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

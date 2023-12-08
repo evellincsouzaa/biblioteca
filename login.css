@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('imagens/Biblioteca Virtual (2)-fotor-bg-remover-20231124105341.png') no-repeat center center fixed;
+    background-size: cover;
+    max-height: 100%;
+ 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    top: -50px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+form table {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #54cfbd;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #90e7ff;
+}
+h1{
+    position: absolute;
+    left: 700px;
+    top: 110px;
+}
+h2{
+    position: absolute;
+    left: 570px;
+    top: 470px;
+}
+.login{
+    position: absolute;
+    left: 690px;
+    top: 520px;
+    color: green;
+    
+}
+.regis{
+    position: relative;
+    top: -320px;
+    left: 70px;
+    text-decoration: none;
+}
+.cad{
+    position:absolute;
+    left:710px;
+    text-decoration: none;
+}
